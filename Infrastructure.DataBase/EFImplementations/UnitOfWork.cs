@@ -7,7 +7,6 @@ namespace Infrastructure.DataBase.Implementations
     public class EFUnitOfWork : IUnitOfWork
     {
         private readonly SweetShopDataContext _context;
-
         public IRepository<Product> Products { get; set; }
         public IRepository<Order> Orders { get; set; }
         public IRepository<Customer> Customers { get; set; }

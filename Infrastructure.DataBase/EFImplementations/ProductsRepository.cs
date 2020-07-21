@@ -9,7 +9,6 @@ namespace Infrastructure.DataBase.Implementations
     public class ProductsRepository : IRepository<Product>
     {
         private readonly SweetShopDataContext _context;
-
         public ProductsRepository()
         {
             _context = new SweetShopDataContext();

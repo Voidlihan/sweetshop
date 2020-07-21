@@ -9,7 +9,6 @@ namespace Infrastructure.DataBase.Implementations
     public class OrderDetailsRepository : IRepository<OrderDetail>
     {
         private readonly SweetShopDataContext _context;
-
         public OrderDetailsRepository()
         {
             _context = new SweetShopDataContext();
